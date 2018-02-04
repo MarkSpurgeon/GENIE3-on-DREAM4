@@ -1,5 +1,5 @@
 # GENIE3-on-DREAM4
-GENIE3 (Huynh-Thu et al.) uses random forest variable importance to recover gene regulatory networks in the DREAM4 In Silico Multifactorial challenge. This project does the following:
+GENIE3 (Huynh-Thu et al.) uses random forest variable importance to recover gene regulatory networks, and was the best performer in the DREAM4 *In Silico Multifactorial* challenge. This project does the following:
 
 **(1)** Implements the GENIE3 gene regulatory network algorithm using base R functions
 
