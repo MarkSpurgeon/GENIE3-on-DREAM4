@@ -8,4 +8,5 @@ GENIE3 (Huynh-Thu et al.) uses random forest variable importance to recover gene
 (3) Compares performance to that of the original GENIE3 algorithm which was the best performer in this subchallenge.
 
 GENIE3 Publication link: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0012776
+
 DREAM4 Data link: http://dreamchallenges.org/project/dream4-in-silico-network-challenge/
