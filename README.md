@@ -1,4 +1,4 @@
-### GENIE3-on-DREAM4
+# GENIE3-on-DREAM4
 
 ## Introduction
 GENIE3 (Huynh-Thu et al.) uses random forest variable importance to recover gene regulatory networks, and was the best performer in the DREAM4 *In Silico Multifactorial* challenge. This project does the following:
@@ -14,3 +14,12 @@ GENIE3 (Huynh-Thu et al.) uses random forest variable importance to recover gene
 **DREAM4 Data link:** http://dreamchallenges.org/project/dream4-in-silico-network-challenge/
 
 *In Progress* **(4)** Improving algorithm by accounting for indirect associations that may lead to spurious detections
+
+## Running the Algorithm
+
+R scripts are provided for both the original and new implementation of GENIE3. Just make sure that you change the "directory" object to match the directory where the data files are located. After that the script should run and save results files to the same directory.
+
+**genie3_original.R** Original implementation, directly from the creator
+**genie3_spurgeon.R** New implementation
+
+## Results
