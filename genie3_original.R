@@ -294,11 +294,16 @@ lin.to.square <- function(i, nrow) {
     return(c(row, col))
 }
 
-#######################################################
-##### BEGIN: adding to the original GENIE3 script #####
-#######################################################
+##########################################################
+##### BEGIN: running the original GENIE3 script.     #####
+##### Everything above this line is the original     #####
+##### unaltered and up-to-date (as of 2/1/2018)      #####
+##### version. 					     #####
+##########################################################
+
 library(randomForest)
-setwd("C:/Users/Mark/Desktop/genie3spurgeon/random forest results")
+directory <- "location of DREAM4 data"
+setwd(directory)
 
 interaction.list.orig <- vector(mode="list",length=5)
 for (data.idx in 1:length(interaction.list.orig)) {
