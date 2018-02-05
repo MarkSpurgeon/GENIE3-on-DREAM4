@@ -17,7 +17,7 @@ GENIE3 (Huynh-Thu et al.) uses random forest variable importance to recover gene
 
 ## Running the Algorithm
 
-R scripts are provided for both the original and new implementation of GENIE3. Just make sure that you change the "directory" object to match the directory where the data files are located. After that the script should run and save results files to the same directory.
+R scripts are provided for both the original and new implementation of GENIE3. Just make sure that you change the "directory" object to match the directory where the data files are located. After that the script should run and save results to the same directory.
 
 **genie3_original.R** Original implementation, directly from the creator
 **genie3_spurgeon.R** New implementation
