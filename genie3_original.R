@@ -307,7 +307,7 @@ setwd(directory)
 
 n.datasets <- 5
 interaction.list.orig <- vector(mode = "list", length = n.datasets)
-for (data.idx in 1:length(interaction.list.orig)) {
+for (data.idx in 1:n.datasets) {
   
 dream4.expr.matrix <- read.expr.matrix(filename=sprintf("insilico_size100_%d_multifactorial.tsv",data.idx),
                                        form="rows.are.samples")
