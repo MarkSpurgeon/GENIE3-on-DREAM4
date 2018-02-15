@@ -305,7 +305,8 @@ library(randomForest)
 directory <- "location of DREAM4 data"
 setwd(directory)
 
-interaction.list.orig <- vector(mode="list",length=5)
+n.datasets <- 5
+interaction.list.orig <- vector(mode = "list", length = n.datasets)
 for (data.idx in 1:length(interaction.list.orig)) {
   
 dream4.expr.matrix <- read.expr.matrix(filename=sprintf("insilico_size100_%d_multifactorial.tsv",data.idx),
