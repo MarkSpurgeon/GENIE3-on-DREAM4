@@ -27,7 +27,7 @@ R scripts are provided for both the original and new implementation of GENIE3. J
 
 I compare the original and Spurgeon implementations of GENIE3 using precision vs recall (PR) curves. PR curves and the area underneath curve (AUC) are calculated for all 5 datasets - these results are plotted and saved in png files with names beginning with "Performance_PrecisionRecall_DREAM4_Dataset". The Spurgeon implementation has greater AUC in 4/5 datasets.
 
-The code for performance assessment and plotting needs to be cleaned up a bit, and will be added soon.
+The code for performance assessment and plotting needs to be cleaned up a bit, and will be added soon. PR curves can be produced using a universally-defined procedure. On the other hand, AUC can vary depending on which method is used. the auc() function in the R package "flux" was used to calculate area under PR.
 
 ## Discussion
 
