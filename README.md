@@ -23,3 +23,6 @@ R scripts are provided for both the original and new implementation of GENIE3. J
 
 **genie3_spurgeon.R** New implementation
 
+## Performance Assessment
+
+I will compare the original and new implementations of Genie3 (which should have very similar performance) to a very basic network reconstruction algorithm based on correlation.
