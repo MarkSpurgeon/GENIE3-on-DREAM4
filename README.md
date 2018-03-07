@@ -25,4 +25,4 @@ R scripts are provided for both the original and new implementation of GENIE3. J
 
 ## Performance Assessment
 
-I will compare the original and new implementations of Genie3 (which should have very similar performance) to a very basic network reconstruction algorithm based on correlation.
+I compare the original and Spurgeon implementations of Genie3 using precision vs recall (PR) curves. PR curves and the area underneath curve (AUC) are calculated for all 5 datasets - these results are plotted and saved in png files with names beginning with "Performance_PrecisionRecall_DREAM4_Dataset". The Spurgeon implementation has greater AUC in 4/5 datasets.
