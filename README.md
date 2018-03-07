@@ -27,6 +27,8 @@ R scripts are provided for both the original and new implementation of GENIE3. J
 
 I compare the original and Spurgeon implementations of GENIE3 using precision vs recall (PR) curves. PR curves and the area underneath curve (AUC) are calculated for all 5 datasets - these results are plotted and saved in png files with names beginning with "Performance_PrecisionRecall_DREAM4_Dataset". The Spurgeon implementation has greater AUC in 4/5 datasets.
 
+The code for performance assessment and plotting needs to be cleaned up a bit, and will be added soon.
+
 ## Discussion
 
 Although these implementations are based on the same basic algorithm and use mostly the same random forest parameters (notably number of candidate variables per split, number of trees in forest, & node split criterion), minor differences remain. At present the only difference I can identify is that the randomForest function from which the original GENIE3 algorithm grows a random forest imposes a minimum node size of 5 samples. The Spurgeon implementation allows for no fewer than 10% of the total sample size to be in a single node, which means that trees will on average be smaller except at small sample sizes. This nodesize stopping criterion is one characteristic of random forest that prevents overfitting - therefore, the Spurgeon implementation will be less prone to overfitting than the default original GENIE3 implementation. However, this does not make it globally superior since growing large trees can have benefits in certain systems.
