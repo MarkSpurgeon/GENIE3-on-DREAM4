@@ -25,9 +25,7 @@ R scripts are provided for both the original and new implementation of GENIE3. J
 
 ## Performance Assessment
 
-I compare the original and Spurgeon implementations of GENIE3 using precision vs recall (PR) and receiver operating characteristic (ROC) curves. 
-
-**performance.R** 
+**performance.R** compares the original and Spurgeon implementations of GENIE3 using precision vs recall (PR) and receiver operating characteristic (ROC) curves. This script's specific functionalities are:
 
 **(1)** Generates PR and ROC curves for all 5 datasets
 
